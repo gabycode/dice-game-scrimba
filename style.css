@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-image: url(https://i.imgur.com/A3eTtoq.jpg);
+  background-repeat: repeat;
+  background-size: 100rem auto;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 4rem auto;
+  text-align: center;
+  background-color: #1e152a;
+  color: white;
+  border-radius: 5px;
+  padding: 50px;
+  transition: 0.7s;
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+.players {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.dice {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: #e4dde0;
+  margin: 0 auto;
+  font-size: 80px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+button {
+  color: #fff;
+  padding: 20px 30px;
+  font-size: 20px;
+  margin: 40px auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#rollBtn {
+  background-color: #4abf50;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+#rollBtn:hover {
+  background-color: #3aa640;
+}
+
+#resetBtn {
+  background-color: #ee4444;
+  transition: 0.3s;
+}
+
+#resetBtn:hover {
+  background-color: #ea1f1f;
+}
+
+button:focus {
+  outline: none;
+}
+
+#resetBtn {
+  display: none;
+}
+
+.active {
+  box-shadow: -2px 6px 18px 3px rgba(150, 50, 150, 0.75);
+}
